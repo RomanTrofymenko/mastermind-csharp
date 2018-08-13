@@ -47,4 +47,4 @@ The candidate should build a fully functional game based on the given skeleton.
 1. `RandomCodeGenerator.Generate()` generates valid passcode according to game rules.
 2. `Game.Guess()` validates input.
 3. `Game.Guess()` returns object of a type `AttemptResult`, with properties `NumbersPlacedCorrectly` and `NumbersGuessedCorrectly` set according to game rules.
-All code outside `Program.cs` must be covered with Unit Tests.
+4. All code outside `Program.cs` or `AttemptResult.cs` must be covered with Unit Tests.
