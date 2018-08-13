@@ -29,17 +29,16 @@ Numbers Guessed Correctly: 2
 ```
 
 # Task
+The candidate should build a fully functional game based on the given skeleton.
 
 ## Skeleton
-Existing code has the following key files:
-1. mastermind\Program.cs
+1. `mastermind\Program.cs` (fully implemented)
   * Creates Game
   * Reads input handling 'exit' keyword
   * Parses input into an array of numbers
   * Passes parsed input into `Game.Guess()` method.
   * Outputs the attempt result.
   * Handles win condition.
-
 2. `mastermind.core\RandomCodeGenerator.cs` to be implemented;
 3. `mastermind.core\Game.cs` to be implemented;
 4. `mastermind.test\GameTest.cs` as a test class template;
