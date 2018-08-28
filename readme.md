@@ -6,9 +6,9 @@ The game ends if the player guesses the passcode correctly.
 
 ## Input validation
 The input as well as generated passcode should go through the following validation:
-1. The array should have exactly four items.
+1. The array should have exactly 4 items.
 2. The items in the array should be unique.
-3. None of the items should be greater than 6 or less than 4.
+3. None of the items should be greater than 6 or less than 1.
 
 ## Input processing
 After the input is validated, the game should compare it to the randomly generated passcode.
